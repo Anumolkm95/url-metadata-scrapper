@@ -39,7 +39,6 @@ module.exports.urlMetadataScrapper = async (event, context) => {
     try {
       let data = await promise;
       if (data === "FAILED") {
-        console.log(data)
         return getResponseObject({message: "Can't retrieve data!"}, 404);
       }
       const $ = cheerio.load(data.body);
@@ -58,7 +57,7 @@ module.exports.urlMetadataScrapper = async (event, context) => {
           }
         }
       });
-      return getResponseObject({data: extracted}, 200);
+      return getResponseObject(extracted, 200);
     } catch (err) {
       console.log(err);
       return getResponseObject({message: "Something went wrong!"}, 500);
