@@ -1,0 +1,22 @@
+{
+  "name": "console-app",
+  "version": "1.0.0",
+  "description": "console app to create users",
+  "main": "app.js",
+  "bin": "bin.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^9.2.2",
+    "sinon": "^13.0.1",
+    "sinon-chai": "^3.7.0"
+  }
+}

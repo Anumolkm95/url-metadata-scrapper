@@ -1,0 +1,15 @@
+service: url-metadata-scrapper-api
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  lambdaHashingVersion: '20201221'
+
+functions:
+  scrapper:
+    handler: function/handler.urlMetadataScrapper
+    events:
+      - http:
+          path: /
+          method: post
+          cors: true
