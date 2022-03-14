@@ -1,5 +1,7 @@
 # url-metadata-scrapper
 
+A API to scrape an input URL and parse its metadata.
+
 ## POST API
 
 #### Endpoint : https://mhp0k4u2z0.execute-api.us-east-1.amazonaws.com/dev/ <br />
