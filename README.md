@@ -11,7 +11,6 @@
 
 ### Sample response body : 
 `{
-    "data": {
         "viewport": "width=device-width, initial-scale=1",
         "og:site_name": "Test",
         "og:title": "Test",
@@ -34,5 +33,4 @@
         "robots": "index,nofollow",
         "next-head-count": "25"
     }
-}
 `
