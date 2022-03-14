@@ -1,6 +1,6 @@
 # url-metadata-scrapper
 
-A API to scrape an input URL and parse its metadata.
+An API to scrape an input URL and parse its metadata.
 
 ## POST API
 
